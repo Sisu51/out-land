@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: black;
+  color: white;
+  font-family: -apple-system;
+}
+
+#map {
+  height: 100%;
+}
+
+#statusBanner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1000;
+}
